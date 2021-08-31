@@ -4,18 +4,24 @@
 
 2/3+5
 
+
 2%/%3+5
 
+
+#Residual
 2%%3
 
 2^3*5
 
+#Exponente
 2^-4
 
 2^(-4)
 
+#Cociente
 725%/%7
 
+#Residuo
 725%%7
 # D = d * q + r
 # r = D - d * q
@@ -49,8 +55,10 @@ NaN
 
 c(2^30, 2^(-15), 1, 2, 3/2)
 
-
+#raiz cuadrada
 sqrt(25)
+sqrt(9)
+
 
 exp(1)
 
@@ -77,9 +85,12 @@ log(4^6, 4)
 
 6^log(4,6)
 
-choose(5,2)
+choose(3,2)
 
-sin(60*pi/180)
+choose(6,3)
+
+
+ sin(60*pi/180)
 
 cos(60*pi/180)
 
@@ -117,7 +128,7 @@ print(pi, 22)
 round(1.25,1)
 round(1.35,1)
 round(sqrt(2),0)
-round(sqrt(2))
+ round(sqrt(2))
 
 round(digits = 5, sqrt(2))
 round(5, sqrt(2))
@@ -134,7 +145,7 @@ x
 y <- cos(pi/4)
 y
 
-sin(pi/4) + cos(pi/4) -> z
+ sin(pi/4) + cos(pi/4) -> z
 z
 
 edad <- 30
@@ -142,7 +153,7 @@ edad <- 30
 nombre = "Juan Gabriel"
 
 HOLA = 1
-hola = 5
+ hola = 5
 
 pi.4 = 4*pi
 pi.4
@@ -187,14 +198,17 @@ suma5 <- function(numero){
 }
 
 suma5(3)
-
+#Mostar_variables
 ls()
 
+#Eliminar una variable(rm(nameofvariable))
 rm(product)
 
 ls()
 
+#eliminar todas las variables
 rm(list = ls())
+
 
 class(3+2i)
 
